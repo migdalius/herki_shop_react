@@ -249,7 +249,7 @@ const Sub = () => {
     const getProducts = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/products?category=week"
+          "https://herki-api.onrender.com/api/products?category=week"
         );
         setProducts(res.data);
       } catch (err) {}
@@ -261,7 +261,7 @@ const Sub = () => {
     const getProducts = async () => {
       try {
         const res = await axios.get(
-          "http://localhost:5000/api/products?category=month"
+          "https://herki-api.onrender.com/api/products?category=month"
         );
         setMonths(res.data);
       } catch (err) {}

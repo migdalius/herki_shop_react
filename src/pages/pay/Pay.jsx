@@ -527,7 +527,7 @@ const Pay = () => {
 
   const makePayment = () => {
     axios
-      .get("http://localhost:5000/api/pay/payment")
+      .get("hhttps://herki-api.onrender.com/api/pay/payment")
       .then((response) => {
         console.log(response.data);
       })
