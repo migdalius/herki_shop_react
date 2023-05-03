@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const BASE_URL = "https://herki-api.onrender.com/";
+const BASE_URL = "https://herki-api.onrender.com/api";
 
 const user = JSON.parse(localStorage.getItem("persist:root"))?.user;
 
