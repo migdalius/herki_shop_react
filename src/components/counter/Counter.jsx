@@ -23,7 +23,7 @@ const Days = styled.p``;
 
 const Counter = () => {
   const startTime = new Date("2023-04-28T00:00:00Z");
-  const endTime = new Date("2023-05-05T00:00:00Z");
+  const endTime = new Date("2023-05-12T00:00:00Z");
   const [time, setTime] = useState(endTime - Date.now());
 
   let totalSeconds = parseInt(Math.floor(time / 1000));
