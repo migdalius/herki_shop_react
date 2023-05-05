@@ -585,7 +585,7 @@ const Hero = () => {
               </SubContaine>
               <SubContaine>
                 <Count>1 szt</Count>
-                <Icons src="../img/inst.png" />
+                <Icons src="../img/instrukcja.png" />
                 <Desc>Papierowa instrukcja uprawy</Desc>
               </SubContaine>
               <DescInfo>
