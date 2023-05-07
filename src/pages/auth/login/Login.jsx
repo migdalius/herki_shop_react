@@ -108,6 +108,8 @@ const Login = () => {
     login(dispatch, { username, password });
   };
 
+  console.log(username, password);
+
   const handleEnter = (e) => {
     if (e.keyCode === 13) {
       handleClick();
