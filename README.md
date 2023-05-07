@@ -2,5 +2,5 @@
 
 Front-end: react.js version
 
-Open [https://herki.onrender.com]
+wersja live: https://herki.onrender.com
 
